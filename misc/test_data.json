@@ -1,0 +1,90 @@
+{
+  "morphy_anderson_kg": {
+    "fen_str": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR%20b%20KQkq%20-%200%202",
+    "wname": "Morphy",
+    "bname": "Anderssen"
+  },
+  "morphy_anderson_kg_expected": [
+    {"date": "1858.??.??", "outcome": "1-0", "w_player": "Morphy, Paul ", "b_player": "Anderssen, Adolf", "w_elo": null, "b_elo": null},
+    {"date": "1858.??.??", "outcome": "1-0", "w_player": "Morphy, Paul ", "b_player": "Anderssen, Adolf", "w_elo": null, "b_elo": null},
+    {"date": "1858.??.??", "outcome": "1-0", "w_player": "Morphy, Paul ", "b_player": "Anderssen, Adolf", "w_elo": null, "b_elo": null},
+    {"date": "1858.??.??", "outcome": "1-0", "w_player": "Morphy, Paul ", "b_player": "Anderssen, Adolf", "w_elo": null, "b_elo": null},
+    {"date": "1858.??.??", "outcome": "1-0", "w_player": "Morphy, Paul ", "b_player": "Anderssen, Adolf", "w_elo": null, "b_elo": null},
+    {"date": "1858.??.??", "outcome": "1-0", "w_player": "Morphy, Paul ", "b_player": "Anderssen, Adolf", "w_elo": null, "b_elo": null}
+  ],
+  "e4_elor_outcomes": {
+    "fen_str": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR%20b%20KQkq%20-%200%201"
+  },
+  "e4_elor_outcomes_expected": [
+    {"elor": 2800, "occs": 334, "wwin": 82, "bwin": 82, "draw": 170},
+    {"elor": 2600, "occs": 55562, "wwin": 17279, "bwin": 11184, "draw": 27099},
+    {"elor": 2400, "occs": 28595, "wwin": 8978, "bwin": 6399, "draw": 13218},
+    {"elor": 2200, "occs": 1767, "wwin": 656, "bwin": 479, "draw": 632},
+    {"elor": 2000, "occs": 99, "wwin": 45, "bwin": 23, "draw": 31}
+  ],
+  "d4_elor_outcomes": {
+    "fen_str": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR%20b%20KQkq%20-%200%201"
+  },
+  "d4_elor_outcomes_expected": [
+    {"elor": 2800, "occs": 304, "wwin": 80, "bwin": 48, "draw": 176},
+    {"elor": 2600, "occs": 49163, "wwin": 14203, "bwin": 9616, "draw": 25344},
+    {"elor": 2400, "occs": 27936, "wwin": 8702, "bwin": 5646, "draw": 13588},
+    {"elor": 2200, "occs": 1411, "wwin": 549, "bwin": 414, "draw": 448},
+    {"elor": 2000, "occs": 46, "wwin": 11, "bwin": 18, "draw": 17}
+  ],
+  "c4_elor_outcomes": {
+    "fen_str": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR%20b%20KQkq%20-%200%201"
+  },
+  "c4_elor_outcomes_expected": [
+    {"elor": 2800, "occs": 54, "wwin": 20, "bwin": 2, "draw": 32},
+    {"elor": 2600, "occs": 9210, "wwin": 2841, "bwin": 1905, "draw": 4464},
+    {"elor": 2400, "occs": 6491, "wwin": 1963, "bwin": 1262, "draw": 3266},
+    {"elor": 2200, "occs": 180, "wwin": 57, "bwin": 65, "draw": 58},
+    {"elor": 2000, "occs": 12, "wwin": 3, "bwin": 5, "draw": 4}
+  ],
+  "e4_top_moves": {
+    "fen_str": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR%20b%20KQkq%20-%200%201"
+  },
+  "e4_top_moves_expected": [
+    {"san_str": "c5", "occurrences": 78230, "wwin": 26580, "bwin": 22368, "draws": 29282},
+    {"san_str": "e5", "occurrences": 66171, "wwin": 21619, "bwin": 14841, "draws": 29711},
+    {"san_str": "e6", "occurrences": 21145, "wwin": 7894, "bwin": 5028, "draws": 8223},
+    {"san_str": "c6", "occurrences": 16001, "wwin": 5662, "bwin": 4054, "draws": 6285},
+    {"san_str": "d6", "occurrences": 5025, "wwin": 1989, "bwin": 1448, "draws": 1588},
+    {"san_str": "g6", "occurrences": 4478, "wwin": 1572, "bwin": 1623, "draws": 1283},
+    {"san_str": "Nf6", "occurrences": 2725, "wwin": 1138, "bwin": 726, "draws": 861},
+    {"san_str": "d5", "occurrences": 2513, "wwin": 1086, "bwin": 668, "draws": 759},
+    {"san_str": "Nc6", "occurrences": 693, "wwin": 255, "bwin": 244, "draws": 194},
+    {"san_str": "b6", "occurrences": 424, "wwin": 165, "bwin": 166, "draws": 93}
+  ],
+  "d4_top_moves": {
+    "fen_str": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR%20b%20KQkq%20-%200%201"
+  },
+  "d4_top_moves_expected": [
+    {"san_str": "Nf6", "occurrences": 113116, "wwin": 37336, "bwin": 26714, "draws": 49066},
+    {"san_str": "d5", "occurrences": 45633, "wwin": 16082, "bwin": 9395, "draws": 20156},
+    {"san_str": "e6", "occurrences": 6526, "wwin": 2349, "bwin": 1608, "draws": 2569},
+    {"san_str": "d6", "occurrences": 3682, "wwin": 1423, "bwin": 1007, "draws": 1252},
+    {"san_str": "f5", "occurrences": 3118, "wwin": 1265, "bwin": 911, "draws": 942},
+    {"san_str": "g6", "occurrences": 3084, "wwin": 1110, "bwin": 1085, "draws": 889},
+    {"san_str": "c5", "occurrences": 781, "wwin": 338, "bwin": 197, "draws": 246},
+    {"san_str": "c6", "occurrences": 203, "wwin": 98, "bwin": 49, "draws": 56},
+    {"san_str": "b6", "occurrences": 189, "wwin": 74, "bwin": 69, "draws": 46},
+    {"san_str": "Nc6", "occurrences": 188, "wwin": 90, "bwin": 53, "draws": 45}
+  ],
+  "c4_top_moves": {
+    "fen_str": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR%20b%20KQkq%20-%200%201"
+  },
+  "c4_top_moves_expected": [
+    {"san_str": "Nf6", "occurrences": 11214, "wwin": 4159, "bwin": 2192, "draws": 4863},
+    {"san_str": "e5", "occurrences": 8371, "wwin": 2847, "bwin": 2193, "draws": 3331},
+    {"san_str": "e6", "occurrences": 5532, "wwin": 2052, "bwin": 1050, "draws": 2430},
+    {"san_str": "c5", "occurrences": 4816, "wwin": 1645, "bwin": 834, "draws": 2337},
+    {"san_str": "g6", "occurrences": 3037, "wwin": 988, "bwin": 788, "draws": 1261},
+    {"san_str": "c6", "occurrences": 2612, "wwin": 957, "bwin": 516, "draws": 1139},
+    {"san_str": "f5", "occurrences": 572, "wwin": 260, "bwin": 142, "draws": 170},
+    {"san_str": "b6", "occurrences": 450, "wwin": 154, "bwin": 150, "draws": 146},
+    {"san_str": "d6", "occurrences": 121, "wwin": 53, "bwin": 38, "draws": 30},
+    {"san_str": "Nc6", "occurrences": 50, "wwin": 31, "bwin": 8, "draws": 11}
+  ]
+}

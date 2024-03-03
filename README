@@ -1,0 +1,23 @@
+This is an app meant to display statistical information on chess games. After collating over 400,000 games from over 250 grandmaster players (plus their opponents throughout their careers) from the Romantic era until the present, one can examine the data to see the most common moves in a given position, search for games from a given position, and see how the outcome of a game containing a position varies according to the ELO of the players. All data was sourced from https://www.pgnmentor.com/ and converted into a database using a custom python script.
+
+An online version is hosted at: https://chess-db.patrick-mckeever.xyz/
+
+This version of the app contains only a few hundred games, which were inserted into an Amazon RDS instance. We could not afford to insert the entire dataset. (The hosted version uses a MySQL instance on my personal server.) I highly recommend looking at this online version, since it contains the full dataset. The SQL file for the full dataset is found here: http://chess-db.patrick-mckeever.xyz/chess.sql (The assignment asked for us to only insert 10 rows, but this doesn't make much sense in the chess context; a single game will contain many more than 10 moves.)
+
+To run the webapp, clone the repo and run in the main directory:
+
+	docker compose up -d --build
+
+The webapp can then be accessed at "127.0.0.1:3000".
+
+To stop the repo from running:
+
+	docker compose down
+
+The "misc" directory contains two files which are not needed to run the app but which may be of interest to the grader.
+
+"misc/extract_pgn.py" was used to extract data from PGN files. I can't upload the full PGN data to github, so it will not run on its own.
+
+"mics/test.py" runs test cases for API endpoints. Usage is "python3 test.py" (which tests on patrick-mckeever.xyz endpoints).
+
+See images "*_demo.png" for demonstrations of functionality on the limited dataset.

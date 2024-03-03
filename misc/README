@@ -1,0 +1,3 @@
+"extract_pgn" was used to extract data from PGN files. I can't upload the full PGN data to github, but, in case the grader wanted to look at this, I figured I ought to upload it.
+
+"test.py" runs test cases for API endpoints. Usage is "python3 test.py" (which tests on patrick-mckeever.xyz endpoints) or "python3 test.py [API_ROOT_URL]" for a custom endpoint. It tests API endpoints against data extracted from python analysis of PGNs, which is collated in test_data.json.
